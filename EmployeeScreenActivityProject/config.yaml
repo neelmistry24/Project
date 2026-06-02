@@ -1,0 +1,47 @@
+database_path: data/activity.db
+screenshot_dir: data/screenshots
+export_dir: data/exports
+capture_interval_seconds: 30 # 5 minutes
+idle_threshold_seconds: 60 # 10 minutes
+store_screenshots: true
+blur_private_screenshots: true
+blur_categories:
+  - non_productive
+max_ocr_chars: 600
+privacy_mode_default: false
+
+productive_keywords:
+  - vscode
+  - visual studio code
+  - pycharm
+  - python
+  - excel
+  - word
+  - powerpoint
+  - google docs
+  - google sheets
+  - jira
+  - github
+  - stack overflow
+  - fastapi
+  - streamlit
+  - code
+  - terminal
+  - project
+  - report
+
+non_productive_keywords:
+  - youtube
+  - netflix
+  - instagram
+  - facebook
+  - whatsapp
+  - spotify
+  - game
+  - gaming
+  - reels
+  - shorts
+  - twitter
+  - x.com
+  - prime video
+  - hotstar
